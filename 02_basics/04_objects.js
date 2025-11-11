@@ -44,10 +44,38 @@ const users = [                       // Array of objects
     }
 ]
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); // Makes an array we can apply loop and all
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser)); // Makes individual array for each key value pair 
+// console.log(Object.keys(tinderUser)); // Makes an array we can apply loop and all
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser)); // Makes individual array for each key value pair 
 
-console.log(tinderUser.hasOwnProperty("isLoggedIN"));
+// console.log(tinderUser.hasOwnProperty("isLoggedIN"));
+
+
+// Destructuring of Objects
+
+const course = {
+    coursename: "JS in hindi",
+    price: 999,
+    courseinstructor: "Hitesh"
+}
+
+// course.courseinstructor   to call we use this but
+const {courseinstructor: instructor} = course
+
+// console.log(courseinstructor);
+console.log(instructor);
+
+
+// API concept    JSON Format
+// {
+//     "name": "Deepak",
+//     "coursename": "JS in hindi",
+//     "price": "free"
+// }
+
+[                              // API in Arrays 
+    {},
+    {}
+]
