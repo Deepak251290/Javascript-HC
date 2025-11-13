@@ -75,7 +75,7 @@ console.log(instructor);
 //     "price": "free"
 // }
 
-[                              // API in Arrays 
+[                              // API in Arrays random user me API can explore
     {},
     {}
 ]
